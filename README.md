@@ -1,9 +1,7 @@
 ### Seamlessly book meeting rooms with Meeting Mate!
 
 ### Team - Coding Mate
-Aakanksha Bhandari
-Shweta Srivastava
-Yuvan Arvind
+Aakanksha Bhandari, Shweta Srivastava and Yuvan Arvind
 
 
 ### `npm run build`
