@@ -1,11 +1,64 @@
 .App {
-    color: white;
+    color: rgb(255, 200, 200);
     text-align: center;
+    font-family: "Montserrat";
+
 }
 
 .container {
-    width: 15rem;
-    height: 15rem;
-    background-color: green;
+    width: 60rem;
+    height: 30rem;
 
+}
+
+.schedule-container {
+    display: flex;
+    font-family: 'Montserrat';
+    background-color: #fed1d1;
+}
+
+.time-column {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10px;
+}
+
+.time {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.room-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding:1px;
+}
+
+.room-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.booking {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #72c575;
+    cursor: pointer;
+}
+
+.booking:not(.unavailable):hover {
+    background-color: #97d872;
+}
+
+.booking.unavailable {
+    background-color: #d76e6e;
+    cursor: not-allowed;
 }
