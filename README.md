@@ -1,12 +1,10 @@
-A simple Hello World Chrome extension using React. 
+### `Seamlessly book meeting rooms with Meeting Mate!`
 
-# Getting Started with Create React App
+### `Team - Coding Mate`
+Aakanksha Bhandari
+Shweta Srivastava
+Yuvan Arvind
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm run build`
 bundle the extension.
@@ -15,7 +13,6 @@ bundle the extension.
 bundle the extension with interactive watch mode.
 
 ## Learn More
+Refer to Meeting Mate.pdf for more details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
