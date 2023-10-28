@@ -23,14 +23,19 @@ function App() {
             
             <div className="room-column">
                 <div className="room-title">Meeting Room</div>
-                <div className="booking">Daily Meeting</div>
+                <div className="booking">Daily Meeting
+
+                </div>
+
                 <div className="booking unavailable">Brainstorming</div>
                 {/* ... Add other bookings here ... */}
             </div>
             
             <div className="room-column">
                 <div className="room-title">Co-working Space</div>
-                <div className="booking unavailable">Unavailable</div>
+                <div className="booking unavailable">Founder's Meet</div>
+                <div className="booking">Customer Suport</div>
+
                 {/* ... Add other bookings here ... */}
             </div>
             <div className="room-column">
@@ -45,6 +50,13 @@ function App() {
                 {/* ... Add other bookings here ... */}
             </div>
             <div className="room-column">
+              <div className="room-column">
+                  <div className="room-title">Conference Room</div>
+                  <div className="booking">Scrum Meeting</div>
+                  <div className="booking unavailable">Brainstorming</div>
+                  {/* ... Add other bookings here ... */}
+                
+              </div>
                 <div className="room-title">Conference Room</div>
                 <div className="booking">Scrum Meeting</div>
                 <div className="booking unavailable">Brainstorming</div>
